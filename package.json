@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "description": "a portfolio page to showcase my awesomeness",
+  "main": "index.html",
+  "author": "Malik",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
