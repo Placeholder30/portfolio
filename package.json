@@ -5,7 +5,9 @@
   "main": "index.html",
   "author": "Malik",
   "license": "MIT",
-  "dependencies": {},
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
   "devDependencies": {
     "eslint": "^7.23.0",
     "parcel-bundler": "^1.12.5"
