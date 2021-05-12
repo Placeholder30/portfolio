@@ -6,7 +6,8 @@
   "author": "Malik",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build"
   },
   "devDependencies": {
     "eslint": "^7.23.0",
