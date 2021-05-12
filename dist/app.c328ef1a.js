@@ -144,7 +144,7 @@ setInterval(function () {
     link.style.display = "none";
     setTimeout(function () {
       link.style.display = "block";
-      link.style.transform = "rotate(170deg)";
+      link.style.transform = "rotate(150deg)";
       setTimeout(function () {
         link.style.transform = "rotate(180deg)";
       }, 600);

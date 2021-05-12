@@ -11,7 +11,7 @@ setInterval(() => {
     link.style.display = "none";
     setTimeout(() => {
       link.style.display = "block";
-      link.style.transform = "rotate(170deg)";
+      link.style.transform = "rotate(150deg)";
       setTimeout(() => {
         link.style.transform = "rotate(180deg)";
       }, 600);
