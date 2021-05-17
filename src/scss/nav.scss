@@ -19,6 +19,8 @@ nav,
 footer {
   a {
     text-transform: uppercase;
+    color: palevioletred;
+
     display: block;
     position: absolute;
     font-size: 1.3rem;
@@ -62,29 +64,4 @@ main {
 a {
   text-decoration: none;
   color: black;
-}
-h1 {
-  font-size: 2.5rem;
-  line-height: 1.2;
-  margin: 0 auto 2rem;
-  width: 70%;
-}
-p {
-  font-size: 1.7rem;
-  width: 70%;
-  text-align: justify;
-  margin: 0 auto;
-}
-.image {
-  width: 30rem;
-  margin: 6rem auto 2rem;
-  img {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  h1 {
-    font-size: 2rem;
-  }
 }

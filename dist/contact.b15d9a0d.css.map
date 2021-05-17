@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/contact.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"contact.b15d9a0d.css","sourceRoot":"../src","sourcesContent":[".home {\n  position: absolute;\n  bottom: 3rem;\n  left: 50%;\n}\n"]}

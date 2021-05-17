@@ -26,7 +26,7 @@ function startInterval() {
         setTimeout(() => {
           link.style.transform = "rotate(180deg)";
         }, 600);
-      }, 1000);
+      }, 800);
     });
   }, 6000);
 }
