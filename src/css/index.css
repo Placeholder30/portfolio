@@ -1,16 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+nav a,
+footer a {
+  color: palevioletred;
+  text-transform: uppercase;
+  display: block;
+  position: fixed;
+  font-size: 1.3rem;
+  transition: transform 0.7s;
+}
+
+nav a:hover,
+footer a:hover {
+  font-size: 1.4rem;
+}
+
+.top-left {
+  top: 2rem;
+  left: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin-left: 2rem;
+}
+
+.top-right {
+  top: 2rem;
+  right: 0;
+  writing-mode: vertical-lr;
+  margin-right: 2rem;
+}
+
+.bottom-left {
+  bottom: 2rem;
+  left: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin-left: 2rem;
+}
+
+.bottom-right {
+  bottom: 2rem;
+  right: 0;
+  writing-mode: vertical-lr;
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .content {
-  width: 50vw;
+  width: 60%;
   margin: 0 auto;
 }
 
 h1 {
+  color: palevioletred;
   font-size: 3rem;
   line-height: 1.2;
   margin: 0 auto 2rem;
-  color: palevioletred;
 }
 
-p {
+.content p {
   font-size: 2rem;
   text-align: justify;
   margin: 0 auto;
@@ -25,6 +93,10 @@ p {
   width: 100%;
 }
 
+.intro-container {
+  min-height: 100vh;
+}
+
 @media screen and (max-width: 500px) {
   p {
     font-size: 1.8rem;
@@ -32,4 +104,100 @@ p {
   h1 {
     font-size: 2.4rem;
   }
+}
+
+/*  project section */
+.project-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.project-container h2 {
+  margin-top: 0;
+}
+
+h2 {
+  color: palevioletred;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  color: palevioletred;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+li {
+  font-size: 1.5rem;
+  list-style: lower-greek;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+a.live-link {
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  background-color: palevioletred;
+  margin: 0 1em;
+  padding: 0.25rem 1rem;
+  color: white;
+  font-size: 1.4rem;
+}
+
+a.github {
+  font-size: 1.4rem;
+  border-radius: 3px;
+  background: transparent;
+  border: 2px solid palevioletred;
+  padding: 0.25rem 1rem;
+}
+
+.about-container {
+  min-height: 100vh;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.about-container p {
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 2rem;
+}
+
+.interest-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact {
+  margin-top: 2rem;
+}
+
+ul.socials {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+ul.socials li {
+  list-style: none;
+  width: 2rem;
+}
+
+ul.socials li a {
+  width: 2rem;
+}
+
+ul.socials img {
+  width: 100%;
+  height: 4rem;
 }

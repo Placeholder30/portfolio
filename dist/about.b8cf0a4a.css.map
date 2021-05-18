@@ -1,1 +1,0 @@
-{"version":3,"sources":["css/about.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"about.b8cf0a4a.css","sourceRoot":"../src","sourcesContent":[".home {\n  position: absolute;\n  bottom: 3rem;\n  left: 50%;\n}\n"]}

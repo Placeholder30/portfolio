@@ -5,32 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malik</title>
-    <link rel="stylesheet" href="/nav.96bc43ad.css">
     <link rel="stylesheet" href="/css.967bad95.css">
     <script defer="" src="/app.c328ef1a.js"></script>
-  <script src="/nav.96bc43ad.js"></script><script src="/css.967bad95.js"></script></head>
+  <script src="/css.967bad95.js"></script></head>
   <body>
     <div class="container">
       <nav>
-        <a href="/contact.html" class="top-left link">Contact</a>
-        <a href="/projects.html" class="top-right link">Projects</a>
+        <a href="#contact" class="top-left link">Contact</a>
+        <a href="#projects" class="top-right link">Projects</a>
       </nav>
       <main>
-        <div class="image">
-          <img src="/avatar.e4297fad." alt="avatar">
+        <div class="intro-container">
+          <div class="image">
+            <img src="/avatar.e4297fad." alt="avatar">
+          </div>
+          <div class="content">
+            <h1>Hi, I am Malik and I am a Fullstack Web Developer.</h1>
+            <p>
+              This is a placeholder for a witty quote that captures some of my
+              values, and hopefully, a hiring manager's. Give me a design and i
+              will bring it to life.
+            </p>
+          </div>
         </div>
-        <div class="content">
-          <h1>Hi, I am Malik and I am a Fullstack Web Developer.</h1>
+
+        <!--  About section-->
+
+        <div class="about-container" id="about">
+          <h2>About Me!</h2>
           <p>
-            This is a placeholder for a witty quote that captures some of my
-            values, and hopefully, a hiring manager's. Give me a design and i
-            will bring it to life.
+            My name is Malik Abdulaziz, and I really like learning and writing
+            JavaScript.
           </p>
+          <p>
+            I call myself a NodeJS fanboy when no one is looking, and I have an
+            interesting relationship with CSS. This means I know how to write
+            it, I just don't enjoy writing it.
+          </p>
+          <p>
+            What I do like to write are APIs and server side logic in general.
+            But i am no slouch on the Frontend, that I primarily like to write
+            with React. I think a single page applications are the best things
+            since sliced bread, but i also dabble a lot with vanilla JS.
+          </p>
+          <p>
+            I currently work as a Quantity Surveyor, but I am trying to pivot
+            into web development
+          </p>
+          <div class="interest" id="interest">
+            <h2>Interests</h2>
+            <p>
+              When I am not writing code, I like to watch a good Movie or some
+              Anime. I like to read too, which I do not do enough of these days.
+            </p>
+            <p>
+              I'm currently Working on a flappy bird clone with vanilla JS check
+              it out
+              <a href="https://github.com/Placeholder30/flappy-fish"><u>here</u></a>
+            </p>
+          </div>
+        </div>
+        <!-- project section -->
+        <div class="project-container" id="projects">
+          <h2>Projects</h2>
+          <div class="project">
+            <h3>Lekki Store</h3>
+            <div class="summary">
+              <p>
+                This is an ecommerce site. Front end was made with React and
+                styling was achieved with styled components. The backend was
+                done with Node on the express framework, Postgres was the
+                database of choice, ORM used is Sequelize. JWT was used for
+                authentication, Bcrypt was used for password hashing. The user
+                can create an account, login and place an order. The user can
+                also view all previous orders.
+              </p>
+            </div>
+            <ul class="tech-stack">
+              <li>React</li>
+              <li>Express</li>
+              <li>Postgres</li>
+              <li>Styled Components</li>
+            </ul>
+            <div class="buttons">
+              <a target="_blank" href="https://lekki-store.netlify.app/" class="live-link">Live Link</a>
+              <a target="_blank" href="https://github.com/Placeholder30/lekki-project" class="github">github</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>Social Media feed</h3>
+            <div class="summary">
+              <p>
+                This is a social media feed, one of the first projects i made. i
+                got to practice CSS grid and Flexbox. used JavaScript to toggle
+                Light and Dark mode.
+              </p>
+            </div>
+            <ul class="tech-stack">
+              <li>Html</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="buttons">
+              <a target="_blank" href="https://placeholder30.github.io/social-media-feed/" class="live-link">Live Link</a>
+              <a target="_blank" href="https://github.com/Placeholder30/social-media-feed" class="github">github</a>
+            </div>
+          </div>
+        </div>
+        <!-- About section -->
+        <div class="contact" id="contact">
+          <ul class="socials">
+            <li>
+              <a href=""> <img src="/github.1d8dc012.svg" alt="github"></a>
+            </li>
+            <li>
+              <a href=""><img src="/twitter.9c616447.svg" alt="twitter"></a>
+            </li>
+            <li>
+              <a href=""><img src="/linkedin.b71b7340.svg" alt="linkein"></a>
+            </li>
+            <li>
+              <a href="mailto:malikoabdulaziz@gmail.com"><img src="/email.c0cc18c3.svg" alt="email"></a>
+            </li>
+          </ul>
         </div>
       </main>
       <footer>
-        <a href="/interest.html" class="bottom-left link">Interest</a>
-        <a href="/about.html" class="bottom-right link">About</a>
+        <a href="#interest" class="bottom-left link">Interest</a>
+        <a href="#about" class="bottom-right link">About</a>
       </footer>
     </div>
   </body>
