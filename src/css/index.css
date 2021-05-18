@@ -109,11 +109,13 @@ h1 {
 /*  project section */
 .project-container {
   width: 60%;
+  min-height: 100vh;
   margin: 0 auto;
 }
 
 .project-container h2 {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -168,7 +170,7 @@ a.github {
 .about-container p {
   text-align: center;
   line-height: 2.5rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .interest-container {
@@ -177,7 +179,7 @@ a.github {
 }
 
 .contact {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 ul.socials {

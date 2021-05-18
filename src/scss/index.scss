@@ -100,9 +100,11 @@ h1 {
 /*  project section */
 .project-container {
   width: 60%;
+  min-height: 100vh;
   margin: 0 auto;
   h2 {
     margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -152,7 +154,7 @@ a.github {
   p {
     text-align: center;
     line-height: 2.5rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -163,7 +165,7 @@ a.github {
 
 // socials
 .contact {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 ul.socials {
