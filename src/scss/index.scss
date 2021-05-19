@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f1ec;
+}
+
+.container {
+  width: 100vw;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+nav,
+footer {
+  a {
+    text-transform: uppercase;
+    display: block;
+    position: fixed;
+    font-size: 1.3rem;
+    transition: transform 0.7s;
+    &:hover {
+      font-size: 1.4rem;
+    }
+  }
+}
+.top-left {
+  top: 2rem;
+  left: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin-left: 2rem;
+}
+.top-right {
+  top: 2rem;
+  right: 0;
+  writing-mode: vertical-lr;
+  margin-right: 2rem;
+}
+
+.bottom-left {
+  bottom: 2rem;
+  left: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin-left: 2rem;
+}
+.bottom-right {
+  bottom: 2rem;
+  right: 0;
+  writing-mode: vertical-lr;
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0 auto 2rem;
+}
+.content p {
+  font-size: 2rem;
+  text-align: justify;
+  margin: 0 auto;
+}
+.image {
+  width: 30rem;
+  margin: 10rem auto 2rem;
+  img {
+    width: 100%;
+  }
+}
+.intro-container {
+  min-height: 100vh;
+}
+
+/*  project section */
+.project-container {
+  width: 60%;
+  min-height: 100vh;
+  margin: 0 auto;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+li {
+  font-size: 1.5rem;
+  list-style: lower-greek;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+a.live-link {
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  background-color: palevioletred;
+  margin: 0 1em;
+  padding: 0.25rem 1rem;
+  color: white;
+  font-size: 1.4rem;
+}
+a.github {
+  font-size: 1.4rem;
+  border-radius: 3px;
+  background: transparent;
+  border: 2px solid palevioletred;
+  padding: 0.25rem 1rem;
+}
+
+// About section
+.about-container {
+  min-height: 100vh;
+  width: 60%;
+  margin: 0 auto;
+  p {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+  }
+}
+
+.interest-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+// socials
+.contact {
+  margin-top: 5rem;
+}
+
+ul.socials {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  li {
+    list-style: none;
+    width: 2rem;
+    a {
+      width: 2rem;
+    }
+  }
+  img {
+    width: 100%;
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  ul.socials {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .project-container {
+    width: 70%;
+  }
+  .about-container {
+    width: 70%;
+    p {
+      text-align: justify;
+    }
+  }
+  .content {
+    width: 70%;
+  }
+}
