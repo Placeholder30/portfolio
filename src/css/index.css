@@ -209,6 +209,9 @@ ul.socials img {
   .about-container {
     width: 70%;
   }
+  .about-container p {
+    text-align: justify;
+  }
   .content {
     width: 70%;
   }
